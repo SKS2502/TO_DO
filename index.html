@@ -1,0 +1,44 @@
+<!-- By- Sachin kumar -->
+<!-- Task-3 TODO list -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>To-Do App</h1>
+    </div>
+    <div class="container">
+        <section class="add-task">
+            <h2>Add New Task</h2>
+            <form id="taskForm">
+                <div class="taskInput">
+                    <label for="taskTitle">Title:</label>
+                    <input type="text" id="taskTitle" required>
+                </div>
+                <div class="taskInput">
+                    <label for="taskDescription">Description:</label>
+                    <textarea id="taskDescription" required></textarea>
+                </div>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section class="task-list">
+            <h2>Pending Tasks</h2>
+            <ul id="pendingTasks">
+                <!-- List of pending tasks will be dynamically added here -->
+            </ul>
+            <h2>Completed Tasks</h2>
+            <ul id="completedTasks">
+                <!-- List of completed tasks will be dynamically added here -->
+            </ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

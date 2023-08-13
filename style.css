@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1f5fe;}
+
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.container section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.container .add-task {
+    max-width: 400px;
+}
+
+.container .add-task form {
+    text-align: center;
+}
+
+.container .task-list {
+    border-left: 2px solid #ccc;
+    padding-left: 20px;
+}
+
+.container h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.taskInput {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 400px;
+}
+
+.taskInput label {
+    width: 100px;
+}
+
+.taskInput input,
+.taskInput textarea {
+    flex: 1;
+    padding: 5px;
+}
+
+
+/* Previous CSS styles remain unchanged */
+
+/* New styles for the left container */
+.add-task {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-task h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Styles for title and description input fields */
+.add-task .taskInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.add-task .taskInput label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.add-task .taskInput input,
+.add-task .taskInput textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-task button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task button:hover {
+    background-color: #555;
+}
+
+/* Styles for the right container */
+.task-list {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.task-list h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Styles for task items in the lists */
+.task-info {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.task-info h3 {
+    margin: 0;
+}
+
+.task-info p {
+    margin: 0;
+    color: #555;
+}
